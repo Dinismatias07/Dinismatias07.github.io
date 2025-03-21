@@ -1,37 +1,313 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
+    <title>Mundo do Ballet</title>
     <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">Portfólio</div>
+            <div class="logo">Mundo do Ballet</div>
             <ul class="nav-links">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="sobre.html">Sobre Mim</a></li>
-                <li><a href="competencias.html">Competências</a></li>
-                <li><a href="estagio.html">Estágio</a></li>
-                <li><a href="outros.html">Outros</a></li>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#tecnica">Técnica</a></li>
+                <li><a href="#estilos">Estilos</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#curiosidades">Curiosidades</a></li>
+                <li><a href="#portugal">Ballet em Portugal</a></li>
             </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
         </nav>
     </header>
     
-    <section id="about" class="section">
-        <div class="container">
-            <h1>Olá! O meu nome é Tiago Lopes</h1>
-            <p>Sou aluno do 12º ano do Curso Profissional de Técnico de Multimédia na Escola Secundária Eça de Queirós, na Póvoa de Varzim.</p>
-            <p>Aqui, vais encontrar alguns dos meus trabalhos desenvolvidos ao longo do curso, onde exploro áreas como design gráfico, edição de vídeo, fotografia e muito mais.</p>
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>A Arte do Ballet</h1>
+            <p>Descubra a beleza, a graça e a disciplina de uma das mais antigas e respeitadas formas de dança do mundo.</p>
+            <a href="#sobre" class="btn">Conheça Mais</a>
         </div>
     </section>
-
+    
+    <section id="sobre" class="section">
+        <h2 class="section-title fade-in">Sobre o Ballet</h2>
+        <div class="about-content">
+            <div class="about-text fade-in">
+                <p>O ballet é uma forma de dança que teve origem nas cortes italianas do século XV e, posteriormente, foi desenvolvida em França e na Rússia como uma forma de arte de concerto e espetáculo. Hoje, o ballet é praticado e apreciado em todo o mundo.</p>
+                <p>Caracterizado pela sua graça, precisão técnica e fluidez de movimentos, o ballet combina dança, música e narrativa para criar uma experiência artística completa.</p>
+                <p>O treino em ballet desenvolve força, flexibilidade, disciplina e expressão artística, proporcionando benefícios físicos e emocionais para praticantes de todas as idades.</p>
+            </div>
+            <div class="about-image fade-in">
+                <img src="ballet-2564266_640.jpg" alt="Bailarina em posição de arabesque">
+            </div>
+        </div>
+    </section>
+    
+    <section id="historia" class="section">
+        <h2 class="section-title fade-in">História do Ballet</h2>
+        <div class="timeline-container fade-in">
+            <div class="timeline-item">
+                <h3>Século XV-XVI: Origens</h3>
+                <p>O ballet nasceu nas cortes renascentistas italianas como uma dança aristocrática. Catherine de Medici, ao casar-se com Henrique II de França, levou estas danças para a corte francesa, onde começaram a evoluir.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Século XVII: Ballet de Corte</h3>
+                <p>Luís XIV, o "Rei Sol", foi crucial para o desenvolvimento do ballet. Fundou a Academia Real de Dança em 1661, estabelecendo as bases para a codificação do ballet. Pierre Beauchamp, seu mestre de dança, desenvolveu as cinco posições básicas que ainda hoje são utilizadas.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Século XVIII: Ballet de Ação</h3>
+                <p>Jean-Georges Noverre revolucionou o ballet com o seu conceito de "ballet d'action", que enfatizava a expressão dramática em vez de meros movimentos técnicos. As suas "Cartas sobre a Dança" (1760) são consideradas fundamentais para a história do ballet.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Século XIX: Era Romântica</h3>
+                <p>Surgem os bailados românticos como "La Sylphide" (1832) e "Giselle" (1841). As bailarinas começaram a dançar nas pontas dos pés, criando a ilusão de leveza e etereidade. Marie Taglioni foi uma das primeiras bailarinas a notabilizar-se pelo trabalho em pontas.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Final do Século XIX: Ballet Russo</h3>
+                <p>Marius Petipa, mestre de ballet do Teatro Mariinsky em São Petersburgo, criou obras-primas como "O Lago dos Cisnes", "A Bela Adormecida" e "O Quebra-Nozes" em colaboração com o compositor Tchaikovsky.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Século XX: Modernização</h3>
+                <p>Os Ballets Russes de Sergei Diaghilev revolucionaram a arte com colaborações entre coreógrafos como Fokine e Nijinsky, compositores como Stravinsky e artistas como Picasso. Surgem grandes inovadores como George Balanchine, fundador do New York City Ballet.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Século XXI: Contemporaneidade</h3>
+                <p>O ballet contemporâneo continua a evoluir, com coreógrafos como Wayne McGregor e Alexei Ratmansky a expandirem as fronteiras desta forma de arte. O ballet funde-se com outras formas de dança e incorpora novas tecnologias nos espetáculos.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="tecnica" class="section">
+        <h2 class="section-title fade-in">Técnica do Ballet</h2>
+        <div class="technique-content fade-in">
+            <div class="technique-item">
+                <h3>Posições Básicas</h3>
+                <p>O ballet assenta em cinco posições básicas dos pés, estabelecidas no século XVII, e que constituem o ponto de partida para todos os movimentos. Para cada posição dos pés existe uma correspondente posição dos braços.</p>
+            </div>
+            <div class="technique-item">
+                <h3>Passos Fundamentais</h3>
+                <p>Entre os passos básicos encontram-se o plié (flexão dos joelhos), tendu (extensão da perna), relevé (elevação sobre as pontas ou meia-ponta), e sauté (salto básico). Estes elementos são combinados em sequências mais complexas à medida que o bailarino progride.</p>
+            </div>
+            <div class="technique-item">
+                <h3>En Dehors</h3>
+                <p>A rotação externa das pernas a partir da anca (en dehors ou turn-out) é uma característica distintiva do ballet clássico, criando linhas alongadas e permitindo maior amplitude de movimentos.</p>
+            </div>
+            <div class="technique-item">
+                <h3>Trabalho em Pontas</h3>
+                <p>As bailarinas treinam durante anos antes de começarem a dançar em sapatilhas de ponta. Esta técnica exige força considerável no tornozelo, pé e músculos centrais do corpo. O trabalho em pontas confere ao ballet a sua característica etérea e flutuante.</p>
+            </div>
+            <div class="technique-item">
+                <h3>Port de Bras</h3>
+                <p>O movimento e posicionamento dos braços (port de bras) é fundamental para o equilíbrio e expressividade no ballet. Os braços complementam e contrastam com os movimentos das pernas, criando linhas harmoniosas.</p>
+            </div>
+            <div class="technique-item">
+                <h3>Expressividade</h3>
+                <p>Para além da técnica, o ballet requer expressão artística. Os bailarinos aprendem a transmitir emoções e narrativas através do movimento, utilizando expressões faciais e linguagem corporal.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="estilos" class="section">
+        <h2 class="section-title fade-in">Estilos de Ballet</h2>
+        <div class="styles-grid">
+            <div class="style-card fade-in">
+                <img src="ballet-2124648_640.jpg" alt="Ballet Clássico">
+                <div class="style-card-content">
+                    <h3>Ballet Clássico</h3>
+                    <p>O estilo tradicional que segue os princípios estabelecidos durante os séculos XVII e XVIII. Enfatiza a técnica rigorosa, linhas elegantes e movimentos precisos. Exemplos notáveis incluem "O Lago dos Cisnes", "A Bela Adormecida" e "O Quebra-Nozes".</p>
+                </div>
+            </div>
+            <div class="style-card fade-in">
+                <img src="tipos-de-ballet.jpg" alt="Ballet Romântico">
+                <div class="style-card-content">
+                    <h3>Ballet Romântico</h3>
+                    <p>Surgido no século XIX, caracteriza-se por temas místicos, figurinos etéreos e técnicas como o trabalho nas pontas, buscando criar a ilusão de leveza e elevação. "Giselle" e "La Sylphide" são exemplos emblemáticos deste estilo.</p>
+                </div>
+            </div>
+            <div class="style-card fade-in">
+                <img src="1254934612563_f.jpg" alt="Ballet Neoclássico">
+                <div class="style-card-content">
+                    <h3>Ballet Neoclássico</h3>
+                    <p>Uma abordagem mais contemporânea que mantém a técnica clássica, mas incorpora movimentos mais livres e costuma utilizar músicas e temas mais modernos. George Balanchine é considerado o pai do ballet neoclássico, com obras como "Agon" e "Serenade".</p>
+                </div>
+            </div>
+            <div class="style-card fade-in">
+                <img src="billcooper2.webp" alt="Ballet Contemporâneo">
+                <div class="style-card-content">
+                    <h3>Ballet Contemporâneo</h3>
+                    <p>Funde o vocabulário técnico do ballet clássico com elementos da dança contemporânea, permitindo maior liberdade de expressão e experimentação. Coreógrafos como William Forsythe e Wayne McGregor são referências neste estilo.</p>
+                </div>
+            </div>
+            <div class="style-card fade-in">
+                <img src="4arabesque_vaganova.webp" alt="Método Vaganova">
+                <div class="style-card-content">
+                    <h3>Método Vaganova</h3>
+                    <p>Desenvolvido pela bailarina e pedagoga russa Agrippina Vaganova, este método de ensino caracteriza-se pela ênfase na expressividade dos braços e na coordenação de todo o corpo. É o método dominante na Rússia e em muitas escolas de elite.</p>
+                </div>
+            </div>
+            <div class="style-card fade-in">
+                <img src="unnamed.jpg" alt="Método Cecchetti">
+                <div class="style-card-content">
+                    <h3>Método Cecchetti</h3>
+                    <p>Criado pelo mestre italiano Enrico Cecchetti, este método enfatiza a precisão técnica e o desenvolvimento de força e resistência. Estrutura as aulas por dias da semana, com exercícios específicos para cada dia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="curiosidades" class="section">
+        <h2 class="section-title fade-in">Curiosidades sobre o Ballet</h2>
+        <div class="curiosidades-container fade-in">
+            <p>O ballet começou como entretenimento nas cortes da Itália renascentista e foi aprimorado em França por Luís XIV, que fundou a primeira escola de ballet do mundo.</p>
+            <p>As sapatilhas de ponta foram desenvolvidas no século XIX para permitir que bailarinas parecessem flutuar no palco. A primeira bailarina a utilizar sapatilhas de ponta em palco foi, provavelmente, Marie Taglioni.</p>
+            <p>Bailarinas profissionais podem gastar mais de 150 pares de sapatilhas por ano, e cada par pode durar apenas algumas horas de utilização intensa.</p>
+            <p>A carreira de um bailarino profissional geralmente começa aos 17-18 anos e pode terminar por volta dos 35-40 anos, dependendo da resistência física e do tipo de papel desempenhado.</p>
+            <p>O termo "ballet" vem do italiano "balletto", um diminutivo de "ballo" (dança).</p>
+            <p>Um tutu clássico (o típico saiote rígido e horizontal) pode ser constituído por até 12 camadas de tule e levar mais de 60 horas a ser confeccionado à mão.</p>
+            <p>Alguns bailarinos profissionais usam até 12 pares de sapatilhas de ponta num único espetáculo, trocando-as durante os intervalos ou mesmo durante as saídas de cena.</p>
+            <p>Vaslav Nijinsky, considerado o maior bailarino masculino da história, era famoso pelos seus saltos extraordinários, chegando a dar a impressão de pairar no ar devido à sua técnica excepcional.</p>
+        </div>
+    </section>
+    
+    <section id="portugal" class="section">
+        <h2 class="section-title fade-in">O Ballet em Portugal</h2>
+        <div class="portugal-content fade-in">
+            <p>A história do ballet em Portugal remonta ao século XVIII, quando espetáculos de ballet eram apresentados nos teatros da corte. No entanto, só no século XX o ballet começou a desenvolver-se de forma mais estruturada no país.</p>
+            
+            <h3>Companhia Nacional de Bailado</h3>
+            <p>Fundada em 1977, a Companhia Nacional de Bailado (CNB) é a principal companhia de dança clássica em Portugal. Sediada no Teatro Camões, em Lisboa, a CNB mantém um repertório que inclui grandes clássicos e obras contemporâneas, muitas vezes de coreógrafos portugueses.</p>
+            
+            <h3>Ballet Gulbenkian</h3>
+            <p>Ativo entre 1965 e 2005, o Ballet Gulbenkian desempenhou um papel fundamental no desenvolvimento da dança contemporânea em Portugal. Sob a direção de figuras como Jorge Salavisa e Iracity Cardoso, a companhia tornou-se um importante veículo para a dança de vanguarda.</p>
+            
+            <h3>Escolas de Referência</h3>
+            <p>A Escola de Dança do Conservatório Nacional, fundada em 1839, é a mais antiga instituição de ensino especializado de dança em Portugal. Outras escolas relevantes incluem a Academia de Dança Contemporânea de Setúbal, a Escola de Dança do Conservatório de Música de Coimbra e o Ginasiano Escola de Dança.</p>
+            
+            <h3>Festivais e Eventos</h3>
+            <p>Portugal acolhe diversos festivais dedicados à dança, como o Festival Temps d'Images, o Festival Alkantara e o Festival Internacional de Dança Contemporânea de Évora.</p>
+            
+            <h3>Bailarinos Portugueses Notáveis</h3>
+            <p>Vários bailarinos portugueses têm-se destacado internacionalmente, como Marcelino Sambé (Primeiro Bailarino do Royal Ballet), Telmo Moreira (Bayerisches Staatsballett), Filipa de Castro (Primeira Bailarina da CNB) e outros que trabalham em prestigiadas companhias internacionais.</p>
+            
+            <h3>Contemporaneidade</h3>
+            <p>Além do ballet clássico, Portugal tem uma vibrante cena de dança contemporânea, com coreógrafos como Olga Roriz, Paulo Ribeiro, Rui Horta e Tânia Carvalho a ganharem reconhecimento internacional pelas suas criações inovadoras.</p>
+        </div>
+    </section>
+    
+    <section id="galeria" class="gallery">
+        <div class="section">
+            <h2 class="section-title fade-in">Galeria</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in">
+                    <img src="como-se-preparar-para-uma-apresentacao-3.jpg" alt="Performance de ballet clássico">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="ballet-5352231_640.jpg" alt="Bailarina em ensaio">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="ballet-1919321_1280.jpg" alt="Sapatilhas de ponta e preparação">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="/api/placeholder/400/400" alt="Corpo de baile em apresentação">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="/api/placeholder/400/400" alt="Grand jeté em performance">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="/api/placeholder/400/400" alt="Bastidores de espetáculo">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="/api/placeholder/400/400" alt="Ballet contemporâneo">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="/api/placeholder/400/400" alt="Passo a dois (pas de deux)">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="/api/placeholder/400/400" alt="Bailarino em salto">
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <footer>
-        <p>&copy; 2025 Tiago Lopes | Desenvolvido com paixão e criatividade</p>
+        <p>© 2025 Mundo do Ballet - Todos os direitos reservados</p>
+        <ul class="social-links">
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
     </footer>
 
+    <script>
+        // Menu Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const isOpen = navLinks.classList.contains('active');
+            menuToggle.innerHTML = isOpen ? '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+        });
+        
+        // Scroll animations
+        const fadeElements = document.querySelectorAll('.fade-in');
+        
+        function checkScroll() {
+            fadeElements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                if (elementTop < windowHeight - 100) {
+                    element.classList.add('appear');
+                }
+            });
+            
+            // Header scroll effect
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        }
+        
+        // Initial check
+        checkScroll();
+        
+        // Event listeners
+        window.addEventListener('scroll', checkScroll);
+        window.addEventListener('resize', checkScroll);
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    if (navLinks.classList.contains('active')) {
+                        navLinks.classList.remove('active');
+                        menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+                    }
+                }
+            });
+        });
+    </script>
 </body>
 </html>
