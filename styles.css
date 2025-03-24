@@ -638,3 +638,8 @@ footer::after {
         grid-template-columns: 1fr;
     }
 }
+
+.gallery-item a {
+    position: relative;
+    z-index: 2;
+}
