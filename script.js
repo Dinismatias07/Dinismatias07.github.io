@@ -32,9 +32,9 @@ window.onload = () => {
         modalSim.style.display = 'flex';
     });
 
-    // Ao confirmar no aviso positivo, aí sim redireciona
+    // MUDANÇA AQUI: Ao clicar no botão de confirmação, apenas fecha o modal
     btnConfirmarSim.addEventListener('click', () => {
-        window.location.href = "https://www.youtube.com/watch?v=lp-EO5I6OHQ"; 
+        modalSim.style.display = 'none';
     });
 
     // Botão NÃO: Abre o aviso negativo
@@ -42,9 +42,12 @@ window.onload = () => {
         modalNao.style.display = 'flex';
     });
 
-    // Fechar modais
-    btnCloseNao.addEventListener('click', () => modalNao.style.display = 'none');
+    // Fechar modal do Não
+    btnCloseNao.addEventListener('click', () => {
+        modalNao.style.display = 'none';
+    });
 
+    // Fechar ao clicar fora dos modais
     window.onclick = (event) => {
         if (event.target == modalNao) modalNao.style.display = 'none';
         if (event.target == modalSim) modalSim.style.display = 'none';
